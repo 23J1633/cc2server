@@ -1,0 +1,10 @@
+{
+  "executable": "claude",
+  "locale": "system",
+  "defaultCwd": ".",
+  "model": "sonnet",
+  "reasoningEffort": "high",
+  "permissionMode": "default",
+  "extraArgs": [],
+  "logLevel": "info"
+}

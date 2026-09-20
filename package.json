@@ -1,0 +1,27 @@
+{
+  "name": "@a2s/cc2server",
+  "version": "0.1.7",
+  "description": "Connect a local Claude Code agent to an A2S relay server.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "cc2server": "bin/cc2server.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "config.example.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node bin/cc2server.js start",
+    "doctor": "node bin/cc2server.js doctor",
+    "test": "node --test",
+    "check": "node --check index.js && node --check lib/claude-adapter.js && node --check lib/claude-session.js"
+  },
+  "license": "MIT"
+}
