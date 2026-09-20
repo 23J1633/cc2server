@@ -16,9 +16,6 @@ A2S 按组件拆分为以下同系列仓库，所有者均为 `23J1633`。/ A2S 
 | dsh2server | DeepSeek Harness 插件 / DeepSeek Harness plugin | [23J1633/dsh2server](https://www.github.com/23J1633/dsh2server) |
 | server-api | 中转服务与 Web 控制台 / relay server and Web console | [23J1633/server-api](https://www.github.com/23J1633/server-api) |
 | a2s_app | Flutter Android 客户端 / Flutter Android client | [23J1633/a2s_app](https://www.github.com/23J1633/a2s_app) |
-| scripts | 跨仓库验收脚本 / cross-repository acceptance scripts | [23J1633/scripts](https://www.github.com/23J1633/scripts) |
-| ICON | A2S 品牌源图 / A2S brand source artwork | [23J1633/ICON](https://www.github.com/23J1633/ICON) |
-| artifacts | 脱敏交付验证产物 / sanitized delivery evidence | [23J1633/artifacts](https://www.github.com/23J1633/artifacts) |
 
 `cc2server` 把本机 Claude Code 接入 A2S 服务器。它把服务器统一方法映射到 Claude Code 的 `stream-json` 输入/输出协议，并把会话、模型回复、运行状态和错误转换为与 `dsh2server` 相同的事件格式。
 
